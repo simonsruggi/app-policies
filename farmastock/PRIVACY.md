@@ -61,4 +61,4 @@ We may update this Privacy Policy from time to time. Changes will be reflected i
 For questions or concerns about this Privacy Policy, contact:
 
 **Simone Ruggiero**
-Email: simone@simoneruggiero.com
+Email: simone.ruggiero97@gmail.com
