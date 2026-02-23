@@ -1,14 +1,14 @@
 # Terms of Use — FarmaStock
 
-**Last updated:** February 19, 2026
+**Last updated:** February 24, 2026
 
 ## Acceptance
 
-By downloading or using FarmaStock ("the App"), you agree to these Terms of Use.
+By downloading or using FarmaStock ("the App") and/or visiting the website at [https://farmastock.app](https://farmastock.app) ("the Website"), you agree to these Terms of Use.
 
 ## Description
 
-FarmaStock is a personal inventory management tool for medicines and health products. It allows you to scan barcodes, track expiry dates, and receive local notifications when products are about to expire.
+FarmaStock is a personal inventory management tool for medicines and health products. It allows you to scan barcodes, track expiry dates, and receive local notifications when products are about to expire. The Website at [https://farmastock.app](https://farmastock.app) provides information about the App, download links, and support resources.
 
 ## Subscriptions
 
@@ -40,7 +40,7 @@ The App is provided "as is" without warranties of any kind. The developer is not
 
 ## Intellectual Property
 
-All content, design, and code of the App are the property of Simone Ruggiero. You may not copy, modify, or distribute any part of the App without written permission.
+All content, design, and code of the App and the Website are the property of Simone Ruggiero. You may not copy, modify, or distribute any part of the App or the Website without written permission.
 
 ## Termination
 

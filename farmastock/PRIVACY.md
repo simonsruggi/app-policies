@@ -1,16 +1,18 @@
 # Privacy Policy — FarmaStock
 
-**Last updated:** February 19, 2026
+**Last updated:** February 24, 2026
 
 ## Overview
 
-FarmaStock ("the App") is developed by Simone Ruggiero. This Privacy Policy explains how your information is handled when you use the App.
+FarmaStock ("the App") is developed by Simone Ruggiero. The App is also accompanied by a website at [https://farmastock.app](https://farmastock.app) ("the Website"). This Privacy Policy explains how your information is handled when you use the App and/or the Website.
 
 ## Data Collection
 
-FarmaStock does **not** collect, store, or transmit any personal data to external servers.
+### The App
+FarmaStock does **not** collect, store, or transmit any personal data to external servers. All data — including scanned products, inventory, and expiry dates — is stored **locally on your device** using Apple's SwiftData framework.
 
-All data — including scanned products, inventory, and expiry dates — is stored **locally on your device** using Apple's SwiftData framework.
+### The Website
+The Website does not require user accounts or collect personal data. Anonymous analytics may be collected through [EasyAnalytics](https://easyanalytics.app) to understand usage patterns (page views, referrers). No cookies are used for tracking purposes.
 
 ## Camera Usage
 
