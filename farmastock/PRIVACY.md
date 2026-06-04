@@ -1,6 +1,6 @@
 # Privacy Policy — FarmaStock
 
-**Last updated:** February 24, 2026
+**Last updated:** June 4, 2026
 
 ## Overview
 
@@ -9,7 +9,7 @@ FarmaStock ("the App") is developed by Simone Ruggiero. The App is also accompan
 ## Data Collection
 
 ### The App
-FarmaStock does **not** collect, store, or transmit any personal data to external servers. All data — including scanned products, inventory, and expiry dates — is stored **locally on your device** using Apple's SwiftData framework.
+FarmaStock does **not** require a user account and does **not** collect your personal data. Your scanned products, inventory, and expiry dates are stored **locally on your device** (using SwiftData on iOS and SQLite on Android) and are never uploaded to us.
 
 ### The Website
 The Website does not require user accounts or collect personal data. Anonymous analytics may be collected through [EasyAnalytics](https://easyanalytics.app) to understand usage patterns (page views, referrers). No cookies are used for tracking purposes.
@@ -26,19 +26,19 @@ Camera data is processed entirely on-device and is never recorded, stored, or tr
 
 The App uses the following third-party services:
 
-### Open Food Facts API
-When you scan a barcode that is not found in the local database, the App queries the [Open Food Facts](https://world.openfoodfacts.org/) database to retrieve product information (name, description, category). **Only the barcode number is sent** — no personal or device data is transmitted.
+### Product Lookup Service
+When you scan a barcode (or search by product name) that is not in the local database, the App sends **only the barcode number or search term** to our lookup service (hosted on Supabase) to retrieve product information (name, brand, category). To identify the product, our service may in turn query third-party sources: **UPCitemdb**, **Open Food Facts**, and an **AI web-search assistant (Anthropic)**. Your IP address is processed transiently for rate-limiting and is not stored. No personal, account, or health data is transmitted.
 
 ### RevenueCat
 Used to manage premium subscriptions. RevenueCat may collect:
 - Anonymous device identifier
 - Purchase and subscription history
-- Country/region (derived from App Store)
+- Country/region (derived from the app store)
 
 No personal information (name, email, health data) is shared with RevenueCat. For more details, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
 
-### Apple StoreKit
-Used for in-app subscription processing. All payment data is handled directly by Apple and is governed by [Apple's Privacy Policy](https://www.apple.com/privacy/).
+### In-App Purchases
+Subscriptions are processed by **Apple StoreKit** (iOS) or **Google Play Billing** (Android). All payment data is handled directly by Apple or Google and is governed by their respective privacy policies.
 
 ## Notifications
 
@@ -47,7 +47,7 @@ The App may send local notifications to remind you of upcoming product expiry da
 ## Data Sharing
 
 We do **not** share, sell, or transfer any personal or health-related user data to third parties. The only data transmitted externally is:
-- **Barcode numbers** → to Open Food Facts (for product lookup)
+- **Barcode numbers / product search terms** → to our lookup service and the product databases above (UPCitemdb, Open Food Facts, Anthropic), to identify scanned products
 - **Anonymous purchase data** → to RevenueCat (for subscription management)
 
 ## Children's Privacy
