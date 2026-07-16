@@ -18,6 +18,8 @@ L'App offre abbonamenti Premium (settimanale e annuale) gestiti tramite Apple e 
 
 RevenueCat viene utilizzato per gestire lo stato dell'abbonamento. RevenueCat riceve un identificativo anonimo generato casualmente e non collegato alla tua identità. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
 
+Se richiedi un rimborso per un acquisto in-app sull'App Store, Apple può chiederci — tramite RevenueCat — di condividere dati sull'utilizzo dell'App relativi a quell'acquisto ("consumption data") per aiutare Apple a decidere sul rimborso, come previsto dalle linee guida Apple. Questi dati vengono usati esclusivamente per gestire la richiesta di rimborso.
+
 ## Notifiche
 
 Se attivi i promemoria giornalieri, le notifiche vengono gestite localmente sul dispositivo. Non utilizziamo notifiche push remote.

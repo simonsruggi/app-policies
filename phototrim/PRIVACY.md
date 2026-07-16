@@ -25,6 +25,8 @@ PhotoTrim ("the App") is developed by Simone Ruggiero. This Privacy Policy expla
 
 The App uses **RevenueCat** for managing in-app subscriptions. RevenueCat may collect anonymous purchase data as described in their [Privacy Policy](https://www.revenuecat.com/privacy).
 
+If you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
+
 ## Children's Privacy
 
 The App does not knowingly collect information from children under 13.

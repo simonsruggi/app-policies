@@ -20,8 +20,10 @@ ZenFlip does **not** collect, store, or share any personal data.
 - Deleting the app removes all locally stored data.
 
 ## Third-Party Services
-- ZenFlip does not integrate with any third-party services.
-- No data is shared with third parties.
+- **RevenueCat** — used to manage in-app subscriptions. It receives an anonymous, randomly-generated identifier and purchase/subscription history, not linked to your identity. See their [Privacy Policy](https://www.revenuecat.com/privacy).
+- **Apple StoreKit** — processes in-app purchases; all payment data is handled directly by Apple under its privacy policy.
+- **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
+- We do not share your data with any other third parties.
 
 ## Children's Privacy
 - ZenFlip does not knowingly collect data from children under 13.

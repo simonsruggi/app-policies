@@ -24,6 +24,7 @@ Scirocco ("the App") is developed by Simone Ruggiero. This Privacy Policy explai
 - **RevenueCat** — manages in-app subscriptions; may collect an anonymous device identifier and purchase/subscription history. See their [Privacy Policy](https://www.revenuecat.com/privacy).
 - **Google Play Billing / Apple StoreKit** — process in-app purchases; all payment data is handled directly by Google or Apple under their respective privacy policies.
 - **OpenStreetMap / OpenSeaMap** — provide the nautical map tiles (see "Location" above).
+- **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
 
 ## Changes
 

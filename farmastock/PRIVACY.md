@@ -40,6 +40,8 @@ No personal information (name, email, health data) is shared with RevenueCat. Fo
 ### In-App Purchases
 Subscriptions are processed by **Apple StoreKit** (iOS) or **Google Play Billing** (Android). All payment data is handled directly by Apple or Google and is governed by their respective privacy policies.
 
+If you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
+
 ## Notifications
 
 The App may send local notifications to remind you of upcoming product expiry dates. These notifications are generated entirely on-device and are not sent through any external server.
