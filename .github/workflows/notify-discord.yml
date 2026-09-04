@@ -1,12 +1,11 @@
 name: Notifica Discord
 
-# GitHub Pages qui usa il builder integrato ("pages build and deployment"), che
-# non e' un nostro workflow e quindi non puo' ospitare lo step di notifica: si
-# aggancia al suo esito con workflow_run.
+# GitHub Pages qui usa il builder integrato, che non e' un nostro workflow e
+# quindi non puo' ospitare lo step di notifica. I workflow generati da GitHub
+# non emettono workflow_run agganciabili: l'evento giusto e' page_build, che
+# scatta a build del sito conclusa.
 on:
-  workflow_run:
-    workflows: ["pages build and deployment"]
-    types: [completed]
+  page_build
 
 jobs:
   notify:
@@ -17,19 +16,25 @@ jobs:
       - name: Notifica Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-          JOB_STATUS: ${{ github.event.workflow_run.conclusion }}
+          BUILD_STATUS: ${{ github.event.build.status }}
           SITE_URL: https://simonsruggi.github.io/app-policies/
           REPO_NAME: ${{ github.event.repository.name }}
-          RUN_URL: ${{ github.event.workflow_run.html_url }}
-          ACTOR: ${{ github.event.workflow_run.actor.login }}
-          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ACTOR: ${{ github.event.build.pusher.login }}
+          HEAD_SHA: ${{ github.event.build.commit }}
+          BUILD_ERROR: ${{ github.event.build.error.message }}
         run: |
           [ -z "$DISCORD_WEBHOOK" ] && { echo "DISCORD_WEBHOOK non configurato, skip"; exit 0; }
-          if [ "$JOB_STATUS" = "success" ]; then EMOJI="✅"; COLOR=5210250; else EMOJI="❌"; COLOR=15548997; fi
+          if [ "$BUILD_STATUS" = "built" ]; then
+            EMOJI="✅"; COLOR=5210250; STATUS="success"
+          else
+            EMOJI="❌"; COLOR=15548997; STATUS="${BUILD_STATUS:-failure}"
+          fi
           SHA=$(echo "$HEAD_SHA" | cut -c1-7)
           MSG=$(git log -1 --pretty=%s "$HEAD_SHA" 2>/dev/null | head -c 180)
+          [ -n "$BUILD_ERROR" ] && MSG="$MSG — $BUILD_ERROR"
           PAYLOAD=$(jq -n \
-            --arg title "$EMOJI Deploy $JOB_STATUS — $REPO_NAME" \
+            --arg title "$EMOJI Deploy $STATUS — $REPO_NAME" \
             --arg url "$SITE_URL" \
             --arg desc "🌐 $SITE_URL
           🔀 \`$SHA\` $MSG
