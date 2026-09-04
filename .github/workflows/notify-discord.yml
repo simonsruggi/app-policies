@@ -1,0 +1,44 @@
+name: Notifica Discord
+
+# GitHub Pages qui usa il builder integrato ("pages build and deployment"), che
+# non e' un nostro workflow e quindi non puo' ospitare lo step di notifica: si
+# aggancia al suo esito con workflow_run.
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Notifica Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          JOB_STATUS: ${{ github.event.workflow_run.conclusion }}
+          SITE_URL: https://simonsruggi.github.io/app-policies/
+          REPO_NAME: ${{ github.event.repository.name }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          ACTOR: ${{ github.event.workflow_run.actor.login }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          [ -z "$DISCORD_WEBHOOK" ] && { echo "DISCORD_WEBHOOK non configurato, skip"; exit 0; }
+          if [ "$JOB_STATUS" = "success" ]; then EMOJI="✅"; COLOR=5210250; else EMOJI="❌"; COLOR=15548997; fi
+          SHA=$(echo "$HEAD_SHA" | cut -c1-7)
+          MSG=$(git log -1 --pretty=%s "$HEAD_SHA" 2>/dev/null | head -c 180)
+          PAYLOAD=$(jq -n \
+            --arg title "$EMOJI Deploy $JOB_STATUS — $REPO_NAME" \
+            --arg url "$SITE_URL" \
+            --arg desc "🌐 $SITE_URL
+          🔀 \`$SHA\` $MSG
+          👤 $ACTOR · [logs]($RUN_URL)" \
+            --argjson color "$COLOR" \
+            '{embeds:[{title:$title,url:$url,description:$desc,color:$color,timestamp:(now|todate)}]}')
+          HTTP=$(curl -sS -o /tmp/discord_resp -w "%{http_code}" -X POST "$DISCORD_WEBHOOK" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: gh-actions-deploy-notify/1.0" \
+            -d "$PAYLOAD")
+          echo "Discord HTTP $HTTP"; cat /tmp/discord_resp
+          [ "$HTTP" = "204" ] || echo "::warning::Notifica Discord fallita (HTTP $HTTP)"
