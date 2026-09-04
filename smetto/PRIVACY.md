@@ -1,32 +1,40 @@
 # Privacy Policy — Smetto
 
-**Ultimo aggiornamento:** 16 luglio 2026
+**Ultimo aggiornamento:** 4 settembre 2026
 
 ## Introduzione
 
-Smetto ("l'App") è sviluppata da Simone Ruggiero. La tua privacy è importante per noi. Questa informativa descrive come trattiamo i tuoi dati.
+Smetto ("l'App") è sviluppata da Simone Ruggiero. Questa informativa descrive quali dati l'App tratta e dove finiscono.
 
 ## Dati raccolti
 
-**L'App non raccoglie né trasmette alcun dato personale identificativo.**
+**Non raccogliamo, non riceviamo e non conserviamo alcun dato personale su nostri server.** Non esiste un account e l'App non ha un backend: al di fuori della gestione dell'abbonamento (vedi sotto), l'App non effettua alcuna connessione di rete.
 
-Tutti i dati sui tuoi progressi (giorni senza fumo, risparmio, voglie, ricadute, impostazioni) sono salvati esclusivamente **in locale sul tuo dispositivo** e non vengono mai inviati a nostri server.
+Tutti i dati sui tuoi progressi — giorni senza fumo, sigarette e denaro risparmiati, voglie, ricadute, traguardi e impostazioni — sono salvati **esclusivamente in locale sul tuo dispositivo** e non vengono sincronizzati su iCloud né su altri servizi cloud. Disinstallando l'App questi dati vengono eliminati.
+
+## Widget e Attività in tempo reale
+
+I widget e le Live Activity mostrano i tuoi progressi leggendoli dai dati salvati sul dispositivo. Nessun dato esce dal dispositivo per queste funzioni.
 
 ## Acquisti in-app
 
-L'App offre un abbonamento Premium gestito tramite Apple e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Apple tramite l'App Store. Non abbiamo accesso ai tuoi dati di pagamento.
+L'App offre un abbonamento Premium gestito tramite Apple e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Apple tramite l'App Store: non abbiamo accesso ai tuoi dati di pagamento.
 
-RevenueCat viene utilizzato per gestire lo stato dell'abbonamento e riceve un identificativo anonimo generato casualmente, non collegato alla tua identità. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
+RevenueCat gestisce lo stato dell'abbonamento e riceve un identificativo anonimo generato casualmente, non collegato alla tua identità, insieme allo storico degli acquisti e al Paese dello store. Non gli vengono trasmessi il tuo nome, la tua email né i tuoi dati su fumo e salute. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
 
 Se richiedi un rimborso per un acquisto in-app sull'App Store, Apple può chiederci — tramite RevenueCat — di condividere dati sull'utilizzo dell'App relativi a quell'acquisto ("consumption data") per aiutare Apple a decidere sul rimborso, come previsto dalle linee guida Apple. Questi dati vengono usati esclusivamente per gestire la richiesta di rimborso.
 
-## Generazione delle illustrazioni dei traguardi
+## Notifiche
 
-Per generare le illustrazioni dei traguardi, l'App può inviare una descrizione testuale **generica e non personale** (ad esempio il soggetto grafico del traguardo) al servizio **OpenAI** (`api.openai.com`). Non vengono inviati dati personali, di salute, né informazioni che ti identifichino. Le immagini generate sono salvate in locale sul dispositivo. Consulta la [Privacy Policy di OpenAI](https://openai.com/policies/privacy-policy).
+Se attivi i promemoria, le notifiche sono programmate e mostrate **localmente sul dispositivo**. Non inviamo notifiche push dai nostri server.
 
 ## Analisi e tracciamento
 
-L'App non utilizza strumenti di analisi, tracciamento o pubblicità di terze parti.
+L'App **non** contiene strumenti di analisi, tracciamento o pubblicità. Non usiamo l'IDFA né altri identificatori pubblicitari e non facciamo tracciamento tra app o siti.
+
+## Avvertenza
+
+Smetto è uno strumento di supporto motivazionale: non è un dispositivo medico e non fornisce consulenza medica. Per un percorso di disassuefazione dal fumo rivolgiti al tuo medico.
 
 ## Minori
 
@@ -38,4 +46,4 @@ Potremmo aggiornare questa informativa periodicamente. La versione aggiornata sa
 
 ## Contatti
 
-Per domande sulla privacy, contattaci a: **simone.ruggiero97@gmail.com**
+Per domande sulla privacy: **simone.ruggiero97@gmail.com**

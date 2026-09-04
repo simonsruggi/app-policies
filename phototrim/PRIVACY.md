@@ -1,41 +1,43 @@
-# PhotoTrim - Privacy Policy
+# Privacy Policy — PhotoTrim
 
-**Last updated: March 15, 2026**
+**Last updated: September 4, 2026**
 
 ## Overview
 
-PhotoTrim ("the App") is developed by Simone Ruggiero. This Privacy Policy explains how we handle your information when you use our App.
+PhotoTrim ("the App") is developed by Simone Ruggiero. This Privacy Policy explains how your information is handled when you use the App.
 
 ## Data Collection
 
-**PhotoTrim does not collect, store, or transmit any personal data.** All photo and video processing happens entirely on your device.
+**PhotoTrim does not collect, store, or transmit any personal data.** There is no account and no backend of ours: apart from subscription management (see below), the App makes no network requests at all. All photo and video processing happens entirely on your device.
 
-### What the App accesses:
-- **Photo Library**: The App accesses your photo library to analyze storage usage, find duplicates, and compress media. This data never leaves your device.
-- **Device Storage Info**: The App reads device storage capacity to display usage statistics. This information is not transmitted.
+### What the App accesses
+- **Photo Library (read)**: to analyse how much storage your media takes, find duplicates and similar shots, and compress photos and videos. Your media is read on the device and **never** uploaded anywhere.
+- **Photo Library (add)**: to save the compressed copies back to your library, when you ask for it.
+- **Device storage info**: the App reads the device's storage capacity to show usage statistics. This information is not transmitted.
 
-### What the App does NOT do:
-- We do not collect analytics or usage data
-- We do not track your location
-- We do not use advertising identifiers
-- We do not share any data with third parties
-- We do not upload your photos or videos to any server
+Your analysis results, settings and history are kept on the device and are not synced to iCloud or any other cloud service by the App.
+
+### What the App does NOT do
+- No analytics, crash-reporting or usage-tracking SDKs
+- No location access
+- No advertising identifiers (no IDFA) and no cross-app tracking
+- No sharing or selling of data to third parties
+- No upload of your photos or videos to any server
 
 ## Third-Party Services
 
-The App uses **RevenueCat** for managing in-app subscriptions. RevenueCat may collect anonymous purchase data as described in their [Privacy Policy](https://www.revenuecat.com/privacy).
-
-If you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
+- **RevenueCat** — manages in-app subscriptions. It receives an anonymous, randomly generated identifier, purchase and subscription history, and the store country. No personal information is shared. See their [Privacy Policy](https://www.revenuecat.com/privacy).
+- **Apple StoreKit** — processes in-app purchases; all payment data is handled directly by Apple under its privacy policy.
+- **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
 
 ## Children's Privacy
 
-The App does not knowingly collect information from children under 13.
+The App does not knowingly collect data from children under 13.
 
 ## Changes
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page.
+We may update this Privacy Policy from time to time. Changes will be reflected in the "Last updated" date above.
 
 ## Contact
 
-If you have questions about this Privacy Policy, contact us at:
 **simone.ruggiero97@gmail.com**

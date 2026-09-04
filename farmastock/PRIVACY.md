@@ -1,20 +1,24 @@
 # Privacy Policy — FarmaStock
 
-**Last updated:** July 30, 2026
+**Last updated: September 4, 2026**
 
 ## Overview
 
-FarmaStock ("the App") is developed by Simone Ruggiero. The App is also accompanied by a website at [https://farmastock.app](https://farmastock.app) ("the Website"). This Privacy Policy explains how your information is handled when you use the App and/or the Website.
+FarmaStock ("the App") is developed by Simone Ruggiero and is available for iOS and Android. The App is accompanied by a website at [https://farmastock.app](https://farmastock.app) ("the Website"). This Privacy Policy explains how your information is handled when you use the App and/or the Website.
 
 ## Data Collection
 
 ### The App
-FarmaStock does **not** require a user account and does **not** collect your personal data. Your scanned products, inventory, and expiry dates are stored **locally on your device** (using SwiftData on iOS and SQLite on Android) and are never uploaded to us.
+FarmaStock does **not** require a user account and does **not** collect your personal data. Your scanned products, inventory, quantities and expiry dates are stored **locally on your device** (SwiftData on iOS, SQLite on Android).
 
 The only information that leaves your device is the barcodes you look up and anonymous usage metrics, both described under "Product Lookup Service" and "Anonymous Usage Metrics" below.
 
 ### The Website
-The Website does not require user accounts or collect personal data. Anonymous analytics may be collected through [EasyAnalytics](https://easyanalytics.app) to understand usage patterns (page views, referrers). No cookies are used for tracking purposes.
+The Website does not require user accounts and does not collect personal data. Anonymous, cookie-less analytics are collected through [PureAnalytics](https://pure-analytics.com) to understand usage patterns (page views, referrers). No cookies are used for tracking purposes.
+
+## iCloud Sync (iOS)
+
+If you enable iCloud sync in Settings, the App synchronises your inventory through **your own private iCloud database** (CloudKit) so it is available on your other Apple devices. The sync happens between your device and your iCloud account: **we have no access** to that data and cannot read it. If sync is off, or no iCloud account is configured, everything stays on the device. The Android version has no cloud sync.
 
 ## Camera Usage
 
@@ -22,11 +26,9 @@ The App uses your device's camera exclusively to:
 - Scan product barcodes (EAN/UPC codes)
 - Read expiry dates via OCR (optical character recognition)
 
-Camera data is processed entirely on-device and is never recorded, stored, or transmitted.
+Both run **entirely on the device** — Apple's Vision framework on iOS, Google ML Kit's on-device text recognition on Android. Camera frames are never recorded, stored or transmitted.
 
 ## Third-Party Services
-
-The App uses the following third-party services:
 
 ### Product Lookup Service
 When you scan a barcode (or search by product name) that is not in the local database, the App sends **only the barcode number or search term** to our lookup service (hosted on Supabase) to retrieve product information (name, brand, category). To identify the product, our service may in turn query third-party sources: **UPCitemdb**, **Open Food Facts**, and an **AI web-search assistant (Anthropic)**. Your IP address is used for rate-limiting and is **never stored in clear text** — only a salted hash of it is kept. No personal, account, or health data is transmitted.
@@ -59,6 +61,10 @@ If you request a refund for an in-app purchase on the Apple App Store, Apple may
 
 The App may send local notifications to remind you of upcoming product expiry dates. These notifications are generated entirely on-device and are not sent through any external server.
 
+## Exports
+
+Inventory exports (for example the PDF report) are generated on your device. They are shared only with the app or recipient you choose through the system share sheet, and are never sent to us.
+
 ## Data Sharing
 
 We do **not** share, sell, or transfer any personal or health-related user data to third parties. The only data transmitted externally is:
@@ -75,8 +81,6 @@ The App does not knowingly collect data from children under 13.
 We may update this Privacy Policy from time to time. Changes will be reflected in the "Last updated" date above.
 
 ## Contact
-
-For questions or concerns about this Privacy Policy, contact:
 
 **Simone Ruggiero**
 Email: simone.ruggiero97@gmail.com

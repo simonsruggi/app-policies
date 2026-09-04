@@ -1,32 +1,32 @@
 # Privacy Policy — Esame Guida Turistica 2026
 
-**Ultimo aggiornamento:** 13 luglio 2026
+**Ultimo aggiornamento:** 4 settembre 2026
 
 ## Introduzione
 
-Esame Guida Turistica 2026 ("l'App") è sviluppata da Simone Ruggiero. La tua privacy è importante per noi. Questa informativa descrive come trattiamo i tuoi dati.
+Esame Guida Turistica 2026 ("l'App") è sviluppata da Simone Ruggiero. Questa informativa descrive quali dati l'App tratta e dove finiscono.
 
 ## Dati raccolti
 
-**L'App non raccoglie, memorizza o condivide alcun dato personale.**
+**Non raccogliamo, non riceviamo e non conserviamo alcun dato personale su nostri server.** Non esiste un account e l'App non ha un backend.
 
-Tutti i dati relativi ai tuoi progressi di studio (risposte, statistiche, impostazioni) sono salvati esclusivamente in locale sul tuo dispositivo e non vengono mai trasmessi a server esterni.
+Tutti i dati relativi ai tuoi progressi di studio (risposte, sessioni, statistiche, impostazioni) sono salvati **esclusivamente in locale sul tuo dispositivo** e non vengono sincronizzati su iCloud né su altri servizi cloud. Disinstallando l'App questi dati vengono eliminati.
 
 ## Acquisti in-app
 
-L'App offre abbonamenti Premium (settimanale e annuale) gestiti tramite Apple e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Apple tramite l'App Store. Non abbiamo accesso ai tuoi dati di pagamento.
+L'App offre abbonamenti Premium (settimanale e annuale) gestiti tramite Apple e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Apple tramite l'App Store: non abbiamo accesso ai tuoi dati di pagamento.
 
-RevenueCat viene utilizzato per gestire lo stato dell'abbonamento. RevenueCat riceve un identificativo anonimo generato casualmente e non collegato alla tua identità. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
+RevenueCat gestisce lo stato dell'abbonamento e riceve un identificativo anonimo generato casualmente, non collegato alla tua identità, insieme allo storico degli acquisti e al Paese dello store. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
 
 Se richiedi un rimborso per un acquisto in-app sull'App Store, Apple può chiederci — tramite RevenueCat — di condividere dati sull'utilizzo dell'App relativi a quell'acquisto ("consumption data") per aiutare Apple a decidere sul rimborso, come previsto dalle linee guida Apple. Questi dati vengono usati esclusivamente per gestire la richiesta di rimborso.
 
 ## Notifiche
 
-Se attivi i promemoria giornalieri, le notifiche vengono gestite localmente sul dispositivo. Non utilizziamo notifiche push remote.
+Se attivi i promemoria di studio, le notifiche sono programmate e mostrate **localmente sul dispositivo**. Non inviamo notifiche push dai nostri server.
 
 ## Analisi e tracciamento
 
-L'App non utilizza strumenti di analisi, tracciamento o pubblicità di terze parti.
+L'App **non** contiene strumenti di analisi, tracciamento o pubblicità. Non usiamo l'IDFA né altri identificatori pubblicitari e non facciamo tracciamento tra app o siti.
 
 ## Contenuti
 
@@ -42,4 +42,4 @@ Potremmo aggiornare questa informativa periodicamente. La versione aggiornata sa
 
 ## Contatti
 
-Per domande sulla privacy, contattaci a: **simone.ruggiero97@gmail.com**
+Per domande sulla privacy: **simone.ruggiero97@gmail.com**
