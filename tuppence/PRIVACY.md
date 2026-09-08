@@ -1,6 +1,6 @@
 # Privacy Policy — Tuppence
 
-**Last updated: September 7, 2026**
+**Last updated: September 8, 2026**
 
 ## Overview
 
@@ -20,9 +20,9 @@ The App synchronises your data through **your own private iCloud database** (Clo
 
 If you enable the App lock, Tuppence asks the system to authenticate you with Face ID, Touch ID or your device passcode. The check is performed by iOS: the App only receives a success or failure result and **never** sees your biometric data.
 
-## Photos
+## Data Export
 
-If you export a summary as an image, the App saves that image to your photo library. It needs "add to library" access for that action only; it does not read your existing photos.
+You can export your archive to a file. The file is written where you choose through the system share sheet and never passes through us.
 
 ## Widgets and Siri
 
@@ -34,7 +34,7 @@ Reminders are scheduled and shown **locally on your device**. We do not send pus
 
 ## In-App Purchases
 
-The App offers a one-time purchase to unlock the full version, processed by **Apple StoreKit** through the App Store. All payment data is handled directly by Apple under its privacy policy; we do not have access to your payment information.
+The App offers **auto-renewable subscriptions** (weekly and yearly) that unlock the Premium features; recording expenses stays free. Purchases are processed by **Apple StoreKit** through the App Store. All payment data is handled directly by Apple under its privacy policy; we never see or store your payment information, and we receive no personal data from Apple about the purchase.
 
 ## What the App Does NOT Do
 

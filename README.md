@@ -15,4 +15,5 @@ Privacy Policies and Terms of Use for our apps.
 - [Scirocco — Privacy Policy](scirocco/PRIVACY.md) · [Account & Data Deletion](scirocco/DELETE.md)
 - [Smetto — Privacy Policy](smetto/PRIVACY.md)
 - [StockDock — Privacy Policy](stockdock/PRIVACY.md)
+- [Tuppence — Privacy Policy](tuppence/PRIVACY.md) · [Support](tuppence/SUPPORT.md)
 - [ZenFlip — Privacy Policy](zenflip/PRIVACY.md)
