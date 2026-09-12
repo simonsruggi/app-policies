@@ -8,7 +8,7 @@ Tuppence ("the App") is an expense tracker maintained by Simone Ruggiero. This P
 
 ## Data Collection
 
-**Tuppence does not collect, receive or store any personal data on our servers.** There is no account, no sign-in and no backend of ours: apart from Apple's own services described below, the App makes no network requests.
+**Tuppence does not collect, receive or store any personal data on our servers.** There is no account and no sign-in. The only network requests the App makes are to Apple's own services and to RevenueCat, our subscription provider, both described below.
 
 Everything you record — transactions, amounts, categories, budgets, recurring entries, notes and settings — is stored **on your device** in the App's own database.
 
@@ -35,6 +35,10 @@ Reminders are scheduled and shown **locally on your device**. We do not send pus
 ## In-App Purchases
 
 The App offers **auto-renewable subscriptions** (weekly and yearly) that unlock the Premium features; recording expenses stays free. Purchases are processed by **Apple StoreKit** through the App Store. All payment data is handled directly by Apple under its privacy policy; we never see or store your payment information, and we receive no personal data from Apple about the purchase.
+
+## Subscription Management (RevenueCat)
+
+Purchases are validated and kept in sync through **RevenueCat**, a subscription infrastructure provider. The App sends RevenueCat the App Store transaction receipt and a **randomly generated identifier** that is not linked to your name, email or Apple Account, and receives back whether Premium is active. RevenueCat also receives technical data sent by the SDK, such as the device model, the operating system version and the App version. No transactions, amounts, categories or budgets — that is, none of the data you record in the App — are ever sent to RevenueCat or to anyone else. RevenueCat processes this data as our processor, under its [Privacy Policy](https://www.revenuecat.com/privacy/).
 
 ## What the App Does NOT Do
 
