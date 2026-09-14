@@ -1,23 +1,23 @@
-# Privacy Policy — Che facciamo stasera?
+# Privacy Policy — Stasera: Cosa Fare Insieme
 
 **Last updated: September 14, 2026**
 
 ## Overview
 
-Che facciamo stasera? ("the App") is developed by Simone Ruggiero. This Privacy Policy explains how your information is handled when you use the App.
+Stasera: Cosa Fare Insieme ("the App") is developed by Simone Ruggiero. This Privacy Policy explains how your information is handled when you use the App.
 
 ## Information We Collect
 
-The App does **not** collect, store, or share any personal data. There is no account and no backend of ours: apart from subscription management (see below), the App makes no network requests at all.
+The App does **not** collect, store, or share any personal data. There is no account and no backend of ours. The only network requests the App makes are to Apple Maps (to show the map of a suggested place) and to subscription management (see below).
 
 ### Location Data
 - Your device location is used **only** to sort suggested ideas by proximity and show you the distance to them.
-- Location is processed **locally on your device** and is **never sent to any server**.
+- Location is processed **locally on your device** and is **never sent to our servers**. When a map is shown, Apple Maps loads the map tiles for that area under the [Apple Privacy Policy](https://www.apple.com/legal/privacy/).
 - You can use the App without granting location access.
 
 ### Your Content
-- Favourites, custom ideas and any photo you attach to a custom idea are stored **locally on your device** using SwiftData. Photos are picked with the system picker and stay inside the App.
-- No data is synced to iCloud or any other cloud service. Deleting the App removes all locally stored data.
+- Favourites, custom ideas, your diary of past evenings and any photo you attach to a diary entry or custom idea are stored **locally on your device**. Photos are picked with the system picker (the App has no access to the rest of your library) and a resized copy is kept inside the App.
+- No data is synced to any cloud service of ours. Like other app data, it can be included in your device's iCloud or computer backup if you have enabled it. Deleting the App removes all locally stored data.
 
 ### Usage Data
 - No analytics, crash-reporting or usage-tracking SDKs.
