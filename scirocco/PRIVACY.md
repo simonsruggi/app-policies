@@ -1,6 +1,6 @@
 # Privacy Policy — Scirocco
 
-**Last updated: September 4, 2026**
+**Last updated: September 14, 2026**
 
 ## Overview
 
@@ -44,7 +44,7 @@ Anchor-watch and other alerts are scheduled and shown **locally on your device**
 
 ## Third-Party Services
 
-- **RevenueCat** — manages subscriptions. It receives an anonymous, randomly generated identifier, purchase and subscription history, and the store country. No name, email or navigation data is shared. See their [Privacy Policy](https://www.revenuecat.com/privacy).
+- **RevenueCat** — manages subscriptions. It receives an anonymous, randomly generated identifier, purchase and subscription history, and the store country. No name, email or navigation data is shared. See their [Privacy Policy](https://www.revenuecat.com/privacy). If you installed the App after tapping an Apple Ads advertisement, the App also passes RevenueCat the attribution token provided by Apple's AdServices framework: it only tells us which ad campaign led to the install, contains no personal data and does not require tracking permission.
 - **Apple StoreKit / Google Play Billing** — process in-app purchases; all payment data is handled directly by Apple or Google under their respective privacy policies.
 - **Apple MapKit** (iOS) and **OpenStreetMap / OpenSeaMap** (Android) — provide the chart, as described above.
 - **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.

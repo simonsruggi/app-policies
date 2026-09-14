@@ -1,6 +1,6 @@
 # Privacy Policy — Smetto
 
-**Ultimo aggiornamento:** 4 settembre 2026
+**Ultimo aggiornamento:** 14 settembre 2026
 
 ## Introduzione
 
@@ -20,7 +20,7 @@ I widget e le Live Activity mostrano i tuoi progressi leggendoli dai dati salvat
 
 L'App offre un abbonamento Premium gestito tramite Apple e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Apple tramite l'App Store: non abbiamo accesso ai tuoi dati di pagamento.
 
-RevenueCat gestisce lo stato dell'abbonamento e riceve un identificativo anonimo generato casualmente, non collegato alla tua identità, insieme allo storico degli acquisti e al Paese dello store. Non gli vengono trasmessi il tuo nome, la tua email né i tuoi dati su fumo e salute. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/).
+RevenueCat gestisce lo stato dell'abbonamento e riceve un identificativo anonimo generato casualmente, non collegato alla tua identità, insieme allo storico degli acquisti e al Paese dello store. Non gli vengono trasmessi il tuo nome, la tua email né i tuoi dati su fumo e salute. Per maggiori informazioni: [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy/). Se hai installato l'App dopo aver toccato un annuncio Apple Ads, l'App trasmette a RevenueCat anche il token di attribuzione fornito dal framework AdServices di Apple: indica solo quale campagna ha portato all'installazione, non contiene dati personali e non richiede il permesso di tracciamento.
 
 Se richiedi un rimborso per un acquisto in-app sull'App Store, Apple può chiederci — tramite RevenueCat — di condividere dati sull'utilizzo dell'App relativi a quell'acquisto ("consumption data") per aiutare Apple a decidere sul rimborso, come previsto dalle linee guida Apple. Questi dati vengono usati esclusivamente per gestire la richiesta di rimborso.
 

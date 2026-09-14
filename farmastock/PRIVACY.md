@@ -1,6 +1,6 @@
 # Privacy Policy — FarmaStock
 
-**Last updated: September 4, 2026**
+**Last updated: September 14, 2026**
 
 ## Overview
 
@@ -50,7 +50,7 @@ Used to manage premium subscriptions. RevenueCat may collect:
 - Purchase and subscription history
 - Country/region (derived from the app store)
 
-No personal information (name, email, health data) is shared with RevenueCat. For more details, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy).
+No personal information (name, email, health data) is shared with RevenueCat. For more details, see the [RevenueCat Privacy Policy](https://www.revenuecat.com/privacy). If you installed the App after tapping an Apple Ads advertisement, the App also passes RevenueCat the attribution token provided by Apple's AdServices framework: it only tells us which ad campaign led to the install, contains no personal data and does not require tracking permission.
 
 ### In-App Purchases
 Subscriptions are processed by **Apple StoreKit** (iOS) or **Google Play Billing** (Android). All payment data is handled directly by Apple or Google and is governed by their respective privacy policies.
