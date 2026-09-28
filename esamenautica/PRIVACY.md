@@ -1,6 +1,6 @@
 # Privacy Policy — Esame Patente Nautica
 
-**Ultimo aggiornamento:** 14 settembre 2026
+**Ultimo aggiornamento:** 28 settembre 2026
 
 ## Introduzione
 
@@ -18,9 +18,15 @@ L'App sincronizza automaticamente questi stessi dati (sessioni, risposte, statis
 
 Se sul dispositivo non è configurato un account iCloud, l'App usa automaticamente un archivio solo locale.
 
+## Versione Android
+
+Sui dispositivi Android i dati che generi usando l'App restano **solo sul dispositivo**: non c'è sincronizzazione iCloud né un'altra sincronizzazione su cloud. Disinstallando l'App i dati vengono cancellati.
+
+L'abbonamento Premium su Android è gestito tramite **Google Play** e RevenueCat. Le transazioni di pagamento sono elaborate esclusivamente da Google: non abbiamo accesso ai tuoi dati di pagamento. RevenueCat riceve gli stessi dati descritti sotto (identificativo anonimo, storico degli acquisti, Paese dello store); il trattamento da parte di Google è regolato dalla [Privacy Policy di Google](https://policies.google.com/privacy). La versione Android non usa l'ID pubblicitario.
+
 ## Widget
 
-Il widget della schermata Home legge i tuoi progressi da un'area condivisa (App Group) sullo stesso dispositivo. Nessun dato esce dal dispositivo per questa funzione.
+Su iPhone e iPad il widget della schermata Home legge i tuoi progressi da un'area condivisa (App Group) sullo stesso dispositivo. Nessun dato esce dal dispositivo per questa funzione.
 
 ## Acquisti in-app
 
