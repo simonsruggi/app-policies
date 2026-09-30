@@ -1,20 +1,16 @@
 # Privacy Policy — FarmaStock
 
-**Last updated: September 14, 2026**
+**Last updated: September 30, 2026**
 
 ## Overview
 
-FarmaStock ("the App") is developed by Simone Ruggiero and is available for iOS and Android. The App is accompanied by a website at [https://farmastock.app](https://farmastock.app) ("the Website"). This Privacy Policy explains how your information is handled when you use the App and/or the Website.
+FarmaStock ("the App") is developed by Simone Ruggiero and is available for iOS and Android. This Privacy Policy explains how your information is handled when you use the App. The website [farmastock.app](https://farmastock.app) has its own privacy policy: [farmastock.app/privacy-policy](https://farmastock.app/privacy-policy/).
 
 ## Data Collection
 
-### The App
 FarmaStock does **not** require a user account and does **not** collect your personal data. Your scanned products, inventory, quantities and expiry dates are stored **locally on your device** (SwiftData on iOS, SQLite on Android).
 
 The only information that leaves your device is the barcodes you look up and anonymous usage metrics, both described under "Product Lookup Service" and "Anonymous Usage Metrics" below.
-
-### The Website
-The Website does not require user accounts and does not collect personal data. Anonymous, cookie-less analytics are collected through [PureAnalytics](https://pure-analytics.com) to understand usage patterns (page views, referrers). No cookies are used for tracking purposes.
 
 ## iCloud Sync (iOS)
 
