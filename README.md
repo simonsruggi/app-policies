@@ -9,6 +9,7 @@ Privacy Policies and Terms of Use for our apps.
 - [Esame Guida Turistica 2026 — Privacy Policy](quizguidaturistica/PRIVACY.md)
 - [Esame Patente Nautica — Privacy Policy](esamenautica/PRIVACY.md)
 - [FarmaStock — Privacy Policy](farmastock/PRIVACY.md) · [Terms of Use](farmastock/TERMS.md)
+- [MRRDock — Privacy Policy](mrrdock/PRIVACY.md)
 - [PhotoTrim — Privacy Policy](phototrim/PRIVACY.md)
 - [PureAnalytics — Privacy Policy](pureanalytics/PRIVACY.md)
 - [QueueRemote — Privacy Policy](queueremote/PRIVACY.md)

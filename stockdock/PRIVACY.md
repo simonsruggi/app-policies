@@ -1,6 +1,6 @@
 # Privacy Policy — StockDock
 
-**Last updated: September 4, 2026**
+**Last updated: September 30, 2026**
 
 ## Overview
 
@@ -10,13 +10,17 @@ StockDock ("the App") is developed by Simone Ruggiero and is available for iPhon
 
 **StockDock does not collect, store, or share any personal data.** There is no account, no sign-in and no backend of ours. We receive nothing from the App.
 
-Your watchlist, portfolios, holdings, price alerts, snapshots and settings are stored **on your device**, in the App's own storage. Deleting the App removes them.
+Your watchlist, portfolios, holdings, price alerts, snapshots and settings are stored **on your device**, in the App's own storage. On iPhone, deleting the App removes them. On Mac they are kept in `~/Library/Application Support/StockDock/data.json`: to delete everything, quit the App, delete it from `/Applications` and remove `~/Library/Application Support/StockDock`.
 
 ## Market Data
 
-To show quotes, charts and search results, the App requests market data directly from **Yahoo Finance** (`query1.finance.yahoo.com`, `query2.finance.yahoo.com`). Each request contains the ticker symbols you are looking at and, as with any web request, your IP address. It contains no identifier of you or of your portfolio: Yahoo cannot see how many shares you hold or what the positions are worth. See the [Yahoo Privacy Policy](https://legal.yahoo.com/us/en/yahoo/privacy/index.html).
+To show quotes, live prices, charts, search results and currency exchange rates, the App requests market data directly from **Yahoo Finance** (`query1.finance.yahoo.com`, `query2.finance.yahoo.com`, `streamer.finance.yahoo.com`). Each request contains the ticker symbols or currency codes you are looking at and, as with any web request, your IP address. It contains no identifier of you or of your portfolio: Yahoo cannot see how many shares you hold or what the positions are worth. See the [Yahoo Privacy Policy](https://legal.yahoo.com/us/en/yahoo/privacy/index.html).
 
 If you enable the news tab, headlines are fetched from the same Yahoo Finance search endpoint.
+
+## Updates (Mac)
+
+The Mac version checks for updates by downloading its public update feed from GitHub (`raw.githubusercontent.com`). GitHub sees the request like any other download; the App adds no identifier.
 
 ## Notifications
 
@@ -51,3 +55,5 @@ We may update this Privacy Policy from time to time. Changes will be reflected i
 ## Contact
 
 **simone.ruggiero97@gmail.com**
+
+Data controller: Simone Ruggiero, Naples, Italy.
