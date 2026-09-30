@@ -1,6 +1,6 @@
 # Privacy Policy — Tuppence
 
-**Last updated: September 8, 2026**
+**Last updated: September 30, 2026**
 
 ## Overview
 
@@ -38,7 +38,11 @@ The App offers **auto-renewable subscriptions** (weekly and yearly) that unlock 
 
 ## Subscription Management (RevenueCat)
 
-Purchases are validated and kept in sync through **RevenueCat**, a subscription infrastructure provider. The App sends RevenueCat the App Store transaction receipt and a **randomly generated identifier** that is not linked to your name, email or Apple Account, and receives back whether Premium is active. RevenueCat also receives technical data sent by the SDK, such as the device model, the operating system version and the App version. No transactions, amounts, categories or budgets — that is, none of the data you record in the App — are ever sent to RevenueCat or to anyone else. RevenueCat processes this data as our processor, under its [Privacy Policy](https://www.revenuecat.com/privacy/).
+Purchases are validated and kept in sync through **RevenueCat**, a subscription infrastructure provider. The App sends RevenueCat the App Store transaction receipt and a **randomly generated identifier** that is not linked to your name, email or Apple Account, and receives back whether Premium is active. RevenueCat also receives technical data sent by the SDK, such as the device model, the operating system version and the App version.
+
+If you installed the App after tapping an Apple Ads advertisement, the App also passes RevenueCat the **attribution token** provided by Apple's AdServices framework. It only tells us which ad campaign led to the install, contains no personal data and does not require tracking permission.
+
+No transactions, amounts, categories or budgets — that is, none of the data you record in the App — are ever sent to RevenueCat or to anyone else. RevenueCat processes this data as our processor, under its [Privacy Policy](https://www.revenuecat.com/privacy/).
 
 ## What the App Does NOT Do
 
