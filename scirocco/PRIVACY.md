@@ -1,6 +1,6 @@
 # Privacy Policy — Scirocco
 
-**Last updated: September 27, 2026**
+**Last updated: October 18, 2026**
 
 ## Overview
 
@@ -12,7 +12,7 @@ The App has **no account**, and **we do not store any personal data on our own s
 
 Everything you create in the App — waypoints, routes, tracks, vessels, documents, insurance records, personal documents, notes, attached photos and settings — is stored **on your device** (SwiftData on iOS, SQLite on Android). The name you may enter during onboarding or in "My data" is optional, stays on your device and is never synced or sent anywhere.
 
-The only service of ours the App talks to is the **marine forecast service** described below (iOS only). It receives an approximate position, not your identity, and does not keep it.
+The only service of ours the App talks to is the **marine forecast service** described below. It receives an approximate position, not your identity, and does not keep it. The free version of the App may show advertising, as described in "Advertising" below.
 
 ## Location
 
@@ -23,16 +23,29 @@ The App uses your device location (GPS) to show your position on the chart, calc
 
 Your precise position is processed on the device, is stored only in your local tracks, and is **never** sent to us or used for advertising. You can use most of the App without granting location access.
 
-## Marine Forecast (iOS)
+## Marine Forecast
 
 To show the weather and sea forecast, the App sends our forecast service at `scirocco.app` an **approximate position**: the coordinates of where you are, or of the place you chose, **rounded to 0.1° (about 11 km)**. No identifier, name or account is sent with it.
 
 - Our service forwards the rounded coordinates to **Open-Meteo**, the weather data provider, to obtain the forecast. Open-Meteo receives the request from our server, not from your device, so it does not see your IP address.
 - Our service does not save coordinates in any database. It keeps only anonymous counters (for example, how many forecasts were requested), with no IP address or position.
 - The service runs on **Cloudflare**, which processes your IP address to deliver the request and to limit abuse (a maximum number of requests per minute). Cloudflare's technical logs, kept for a few days, may include the request with the rounded coordinates.
+- To make sure requests come from the genuine App, the App obtains a short-lived proof from **Apple App Attest** (iOS) or **Google Play Integrity** (Android). Apple or Google check that the request comes from an unmodified copy of the App on a real device; our service receives only the result, not your identity.
 - The last forecast is saved **on your device** so you can see it without a connection.
 
 When you search for a place by name, the text you type is sent to **Apple** (MapKit search) to find matching places.
+
+## Advertising
+
+The free version of the App may show a banner advertisement on a few reading screens (the forecast detail and the lists of waypoints and trips). Ads are never shown on the chart, during navigation, or to Scirocco Pro subscribers. Ads are served by **Google AdMob**.
+
+- **Consent (EEA, UK and Switzerland)**: before any ad is requested, the App shows Google's consent form, where you can accept, refuse or choose purposes. Without your consent only limited, non-personalised ads are shown.
+- **US states**: where state privacy laws apply, the same form lets you opt out of the sale or sharing of your personal information.
+- **Change your choice at any time** in Settings → Ad privacy.
+- **What AdMob receives**: technical data needed to serve and measure ads, such as the device model and operating system, IP address (from which an approximate location may be inferred), ad interactions and, on Android, the Advertising ID (which you can reset or delete in Android settings), used for personalised ads only where your consent and privacy choices allow it. On iOS the App **does not request tracking permission**, so Google never receives the advertising identifier (IDFA) and the App does not track you across other companies' apps and websites.
+- Your position, tracks, waypoints, vessels, documents and name are **never** shared with AdMob.
+
+See [Google's Privacy Policy](https://policies.google.com/privacy) and [how Google uses information from apps that use its services](https://policies.google.com/technologies/partner-sites).
 
 ## Charts and Maps
 
@@ -64,14 +77,17 @@ On iOS the App receives crash and performance reports from Apple's MetricKit onl
 - **RevenueCat** — manages subscriptions. It receives an anonymous, randomly generated identifier, purchase and subscription history, and the store country. The App also stores there a few **anonymous usage counters** linked to that identifier — how many times the subscription screen was shown and from which part of the App, and (iOS) how often the forecast is opened — to understand which features lead to a subscription. No name, email, position or navigation data is shared. See their [Privacy Policy](https://www.revenuecat.com/privacy). If you installed the App after tapping an Apple Ads advertisement, the App also passes RevenueCat the attribution token provided by Apple's AdServices framework: it only tells us which ad campaign led to the install, contains no personal data and does not require tracking permission.
 - **Apple StoreKit / Google Play Billing** — process in-app purchases; all payment data is handled directly by Apple or Google under their respective privacy policies.
 - **Apple MapKit** (iOS) and **OpenStreetMap / OpenSeaMap** (Android) — provide the chart and (iOS) the place search, as described above.
-- **Open-Meteo** and **Cloudflare** (iOS) — provide and deliver the marine forecast, as described above.
+- **Open-Meteo** and **Cloudflare** — provide and deliver the marine forecast, as described above.
+- **Apple App Attest** (iOS) and **Google Play Integrity** (Android) — confirm that forecast requests come from the genuine App.
+- **Google AdMob** — serves the advertising in the free version, with consent managed by Google's User Messaging Platform, as described in "Advertising".
 - **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
 
 ## What the App Does NOT Do
 
 - No third-party analytics or crash-reporting SDKs: the only usage data are the anonymous counters sent to RevenueCat described above
-- No advertising identifiers (no IDFA, no Android Advertising ID) and no cross-app tracking
-- No selling or sharing of your data with third parties
+- No tracking on iOS: no IDFA and no App Tracking Transparency request
+- No sharing of your position, tracks or records with advertisers
+- No selling of your data
 
 ## Safety Notice
 
