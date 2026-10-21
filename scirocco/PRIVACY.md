@@ -82,6 +82,10 @@ On iOS the App receives crash and performance reports from Apple's MetricKit onl
 - **Google AdMob** — serves the advertising in the free version, with consent managed by Google's User Messaging Platform, as described in "Advertising".
 - **Refund requests**: if you request a refund for an in-app purchase on the Apple App Store, Apple may ask us — via RevenueCat — to share data about your use of the App related to that purchase ("consumption data") to help Apple decide on the refund, in line with Apple's guidelines. This data is used only to process the refund request.
 
+## Data Sources
+
+Weather data by [Open-Meteo.com](https://open-meteo.com/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The App shows the data as received, rounded and converted to the units chosen in the settings.
+
 ## What the App Does NOT Do
 
 - No third-party analytics or crash-reporting SDKs: the only usage data are the anonymous counters sent to RevenueCat described above
